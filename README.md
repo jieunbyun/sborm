@@ -37,4 +37,4 @@ To solve a custom example, a user should define the example in the same way as t
 *Defining example functions: To define an example, four sub-functions need to be defined. These functions should have the same inputs and outputs as for the benchmark examples. For specifics of an example, users can take advantage of "info" data; to get an idea for how, please take a look at the benchmark examples.
 
 # Salutation from the authors
-The algorithm and code are designed to make reliability-based optimization of general systems more accessible. Our ultimate goal is to enable a general software to solve this seemingly intimating class of problems. We hope we've made a meaningful first step.
+The algorithm and code are designed to make reliability-based optimization of general systems more accessible. Our ultimate goal is to enable a general software to solve this seemingly intimating class of problems. We hope we've made a meaningful first step :)
