@@ -28,7 +28,10 @@ To solve a custom example, a user should define the example in the same way as t
 
 *Output: linear inequality constraints on design variables -- RHS & LHS; linear equality constraints on design variables -- RHS & LHS; lower & upper bounds on design variables; other information required to compute limit-state functions; samples that will be used throughout the optimization
 
-*More about "info" output: It is a structure data that include all information needed to evaluate limit-state functions.  (1) Ensure to include fields required for optimization: "bpf_target", "nRv", "nDv", "nG", "cutset". (2) Also ensure to include fields that specify sub-function & file names: "evalG_name", "evalGgrad_name", "evalSample_name", "evalCost_name", and "filename". (3) Any other variables used in sub-functions (i.e., "evalG_name", "evalGgrad_name", "evalSample_name", and "evalCost_name") can be added as fields.
+*More about "info" output: It is a structure data that include all information needed to evaluate limit-state functions.  
+(1) Ensure to include fields required for optimization: "bpf_target", "nRv", "nDv", "nG", "cutset".  
+(2) Also ensure to include fields that specify sub-function & file names: "evalG_name", "evalGgrad_name", "evalSample_name", "evalCost_name", and "filename".  
+(3) Any other variables used in sub-functions (i.e., "evalG_name", "evalGgrad_name", "evalSample_name", and "evalCost_name") can be added as fields.
 
 *Defining example functions: To define an example, four sub-functions need to be defined. These functions should have the same inputs and outputs as for the benchmark examples. For specifics of an example, users can take advantage of "info" data; to get an idea for how, please take a look at the benchmark examples.
 
