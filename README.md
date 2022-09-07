@@ -1,6 +1,6 @@
 # sborm
 S-BORM algorithm: Byun, J.-E., de Oliveira, W., and Royset, J. O. (in review). S-BORM: Reliability-based optimization of general systems using buffered optimization and reliability method.  
-**arXiv link will be updated soon.
+*arXiv: http://arxiv.org/abs/2209.02573
 
 S-BORM algorithm performs a data-driven reliability optimization of general systems. 
 
