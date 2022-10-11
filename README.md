@@ -4,10 +4,10 @@ S-BORM algorithm: Byun, J.-E., de Oliveira, W., and Royset, J. O. (in review). S
 
 S-BORM algorithm performs a data-driven reliability optimization of general systems. 
 
-# Optimization solver in use: Matlab or Gurobi
-As can be seen in "main_optim.m", there is a user-defined variable "pars.matlab". If it is set "true", then {\it Matlab}'s own optimization tools are used.
+# Optimization solvers: Matlab or Gurobi
+As can be seen in "main_optim.m", there is a user-defined variable "pars.matlab". If it is set "true", then _Matlab_'s own optimization tools are used.
 
-If "false", {\it Gurobi}'s solvers are used (https://www.gurobi.com/). Gurobi provides a free license for academics (https://www.gurobi.com/academia/academic-program-and-licenses/), and instructions are available for connection to Matlab (https://www.gurobi.com/documentation/9.5/quickstart_windows/matlab_setting_up_grb_for_.html).  
+If "false", _Gurobi_'s solvers are used (https://www.gurobi.com/). Gurobi provides a free license for academics (https://www.gurobi.com/academia/academic-program-and-licenses/), and instructions are available for connection to Matlab (https://www.gurobi.com/documentation/9.5/quickstart_windows/matlab_setting_up_grb_for_.html).  
 
 # License
 The authors note that there are two seperate licenses: one for the optimization algorithm ("+fun/PBMDC.m", "+fun/bb.m", and "+fun/bbGammaLambda.m") and one for S-BORM algorithm (the rest).
