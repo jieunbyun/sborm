@@ -9,7 +9,7 @@ As can be seen in "main_optim.m", there is a user-defined variable "pars.matlab"
 
 If "false", _Gurobi_'s solvers are used (https://www.gurobi.com/). Gurobi provides a free license for academics (https://www.gurobi.com/academia/academic-program-and-licenses/), and instructions are available for connecting Gurobi software to Matlab (https://www.gurobi.com/documentation/9.5/quickstart_windows/matlab_setting_up_grb_for_.html).  
 
-Personally, we strongly recommend using Gurobi for it is much faster and accurate.
+Personally, we strongly recommend using Gurobi for it is much faster and more accurate.
 
 # License
 The authors note that there are two seperate licenses: one for the optimization algorithm ("+fun/PBMDC.m", "+fun/bb.m", and "+fun/bbGammaLambda.m") and one for S-BORM algorithm (the rest).
